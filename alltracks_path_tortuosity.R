@@ -5,7 +5,7 @@
 # Aim of script: measure how much paths returning from colony deviate from straight line (direct path)
 # Steps: 
 # 1) Import GPS data that has trip IDs
-# 2) For every trip, find the furthest transit (state 2?) location. Measure distance between that point
+# 2) For every trip, find the furthest transit (state 2) location. Measure distance between that point
 #    and nest. Save that value in new column
 # 3) Measure the actual path length between furthest transit location and nest. Save in new column
 # 4) Calculate the deviation of the actual path from the ideal direct path. 
