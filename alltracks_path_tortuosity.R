@@ -189,9 +189,6 @@ tort_sum <- tort_res %>%
 
 write.csv(tort_sum, "data_out/tortuosity_summ_per_bird.csv", row.names = F)
 
-# Only Stefans birds:
-write.csv(tort_sum[grep("GBC", tort_sum$birdID), ], "data_out/tortuosity_summ_per_bird_phytotron.csv", row.names = FALSE)
-
 
 trip_measures_per_bird <- df_GPS %>% 
   group_by(ID) %>% 
