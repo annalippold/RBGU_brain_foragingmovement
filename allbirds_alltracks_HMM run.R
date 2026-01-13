@@ -1,5 +1,5 @@
 #****************************************************************************************************
-# ALL BIRDS SPATIAL ECOLOGY -- Hidden Markov Models for foraging locations
+#  Hidden Markov Models for foraging locations
 #****************************************************************************************************
 
 # Aim of script: find the number of feeding locations per feeding trip
